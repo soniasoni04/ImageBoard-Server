@@ -25,10 +25,10 @@ const Image = db.define('Image',{
 })
 
 const urlImage = [
-    {url :'url1', title : "image1" },
-    {url :'url2', title : "image2" },
-    {url :'url3', title : "image3" },
-    {url :'url4', title : "image4" },
+    {url :'http://sample.li/birds.jpg', title : "image1" },
+    {url :'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fpeopledotcom.files.wordpress.com%2F2019%2F09%2Fgettyimages-123384926.jpg&w=400&c=sc&poi=face&q=85', title : "image2" },
+    {url :'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fpeopledotcom.files.wordpress.com%2F2019%2F10%2Foriole.jpg&w=400&c=sc&poi=face&q=85', title : "image3" },
+    {url :'https://site-images.similarcdn.com/url?url=https%3A%2F%2Flh3.googleusercontent.com%2Fq1A3iAYUJI6wxOWI7iLvmjAx9rb53QiKUqB1wIfiPzkihWbYgqs_uuDrls45ayKqsUg%3Ds180&h=ce001438d25a2891a7dc6910464e0d207544fcf3c21c9c96fa3ce6d5467ef4f5', title : "image4" },
 ]
 
 db
